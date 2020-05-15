@@ -6,11 +6,11 @@ class MyLogger
     public $standaardtekst2 = "ERROR";
     function log($message)
     {
-        return ("Result " . $this->standaardtekst1 . " : " .$message);
+        return ("Result " . $this->standaardtekst1 . " : " . $message);
     }
     function error($message)
     {
-        return ("Result " . $this->standaardtekst2 . " : " .$message);
+        return ("Result " . $this->standaardtekst2 . " : " .  $message);
     }
 }
 $logger = new MyLogger();
